@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{C24064BC-6437-B4AC-D930-85403A4ACB55}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Entities\Adventurer.cs" />
+     <Compile Include="Assets\Scripts\Entities\World.cs" />
+     <Compile Include="Assets\Scripts\Events\NPC.cs" />
+     <Compile Include="Assets\Scripts\Events\StoryEvent.cs" />
+     <Compile Include="Assets\Scripts\Events\StoryOption.cs" />
+     <Compile Include="Assets\Scripts\Events\StoryOptionType.cs" />
+     <Compile Include="Assets\Scripts\GameData.cs" />
+     <Compile Include="Assets\Scripts\Map\Area.cs" />
+     <Compile Include="Assets\Scripts\Map\Container.cs" />
+     <Compile Include="Assets\Scripts\Map\Direction.cs" />
+     <Compile Include="Assets\Scripts\Map\Door.cs" />
+     <Compile Include="Assets\Scripts\Map\Floor.cs" />
+     <Compile Include="Assets\Scripts\Map\Grid.cs" />
+     <Compile Include="Assets\Scripts\Map\Item.cs" />
+     <Compile Include="Assets\Scripts\Map\ItemUseResult.cs" />
+     <Compile Include="Assets\Scripts\Map\Key.cs" />
+     <Compile Include="Assets\Scripts\Map\Lock.cs" />
+     <Compile Include="Assets\Scripts\Map\Map.cs" />
+     <Compile Include="Assets\Scripts\Map\Room.cs" />
+     <Compile Include="Assets\Scripts\Map\RoomObject.cs" />
+     <Compile Include="Assets\Scripts\Map\RoomObjectType.cs" />
+     <Compile Include="Assets\Scripts\Map\Tool.cs" />
+     <Compile Include="Assets\Scripts\UI\UI.cs" />
+     <Compile Include="Assets\Scripts\UI\UICompass.cs" />
+     <Compile Include="Assets\Scripts\UI\UIContainer.cs" />
+     <Compile Include="Assets\Scripts\UI\UIContainerStyle.cs" />
+     <Compile Include="Assets\Scripts\UI\UIElement.cs" />
+     <Compile Include="Assets\Scripts\UI\UIEventWindow.cs" />
+     <Compile Include="Assets\Scripts\UI\UIInventory.cs" />
+     <Compile Include="Assets\Scripts\UI\UIItem.cs" />
+     <Compile Include="Assets\Scripts\UI\UIMessages.cs" />
+     <Compile Include="Assets\Scripts\UI\UIRoomDescriptionBox.cs" />
+     <Compile Include="Assets\Scripts\UI\UITextbox.cs" />
+     <Compile Include="Assets\Utilities\ExtensionMethods.cs" />
+     <Compile Include="Assets\Utilities\Point.cs" />
+     <None Include="Assets\Strings\names.txt" />
+     <None Include="Assets\Strings\Intro.txt" />
+     <None Include="Assets\Necromancer GUI\Kingthings.txt" />
+     <None Include="Assets\Necromancer GUI\Readme.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

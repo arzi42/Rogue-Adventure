@@ -1,0 +1,21 @@
+#text
+
+#once
+
+#npc: mentor, magicuser
+
+You felt a slight pang of disorientation, stepping out of the Shadow Portal. The bright sun of Belerion greeted you with nearly blinding light. You were finally there, in the new world, beyond dimensions. 
+That was five days ago. 
+Now you find yourself in a small, crammed room, with <b>$mentor.name</b>, who claims to be $mentor.type. The tidings he brings are grim, to say the very least. 
+'Aye, it is true. $enemy has been seen in the $dungeon. It is only a matter of time, before the $enemy_type grows in strength enough to lay waste this whole land.'
+You nod. Your have only recently taken refuge in this new land, and would not like it to be only to see it destroyed before your own eyes.
+'Are you ready? If you want, I can cast a spell of protection on you. Should you come upon a certain death, it will instantly teleport you the entrance to the dungeon.'
+
+#option
+'Yes, I would very much like that.'
+#add_trait: reincarnation
+#end
+
+#option
+'No, I'm wary of magic and capable of protecting myself'
+#end

@@ -1,0 +1,16 @@
+#type: magicuser
+[element][nature]
+
+#type: element
+fire
+water
+wind
+earth
+
+#type: nature
+wood
+lake
+river
+mountain
+hill
+

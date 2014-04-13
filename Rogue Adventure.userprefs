@@ -1,0 +1,78 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Events/NPC.cs">
+    <Files>
+      <File FileName="../Hammer Of Thor PC/Assets/Editor/TilemapEditor.cs" Line="440" Column="35" />
+      <File FileName="../TextAdventure/Assets/Scripts/UI.cs" Line="100" Column="3" />
+      <File FileName="Assets/Scripts/Map/Area.cs" Line="121" Column="3" />
+      <File FileName="Assets/Scripts/UI/UI.cs" Line="167" Column="3" />
+      <File FileName="Assets/Scripts/Map/Room.cs" Line="91" Column="1" />
+      <File FileName="Assets/Scripts/Map/Map.cs" Line="17" Column="4" />
+      <File FileName="Assets/Scripts/Map/Floor.cs" Line="113" Column="3" />
+      <File FileName="Assets/Scripts/Map/Grid.cs" Line="98" Column="3" />
+      <File FileName="Assets/Scripts/Map/Direction.cs" Line="44" Column="21" />
+      <File FileName="Assets/Utilities/Point.cs" Line="5" Column="14" />
+      <File FileName="Assets/Scripts/Map/Door.cs" Line="52" Column="26" />
+      <File FileName="Assets/Scripts/Entities/Adventurer.cs" Line="27" Column="3" />
+      <File FileName="Assets/Utilities/ExtensionMethods.cs" Line="10" Column="2" />
+      <File FileName="Assets/Scripts/Map/Lock.cs" Line="121" Column="11" />
+      <File FileName="Assets/Scripts/Map/Key.cs" Line="13" Column="40" />
+      <File FileName="Assets/Scripts/Map/Item.cs" Line="32" Column="41" />
+      <File FileName="Assets/Scripts/UI/UIElement.cs" Line="33" Column="12" />
+      <File FileName="Assets/Scripts/UI/UIContainer.cs" Line="37" Column="16" />
+      <File FileName="Assets/Scripts/UI/UITextbox.cs" Line="25" Column="3" />
+      <File FileName="Assets/Scripts/UI/UICompass.cs" Line="61" Column="43" />
+      <File FileName="Assets/Scripts/UI/UIRoomDescriptionBox.cs" Line="18" Column="83" />
+      <File FileName="Assets/Scripts/UI/UIItem.cs" Line="85" Column="44" />
+      <File FileName="Assets/Scripts/UI/UIInventory.cs" Line="69" Column="20" />
+      <File FileName="Assets/Scripts/UI/UIContainerStyle.cs" Line="6" Column="20" />
+      <File FileName="Assets/Scripts/Map/ItemUseResult.cs" Line="7" Column="76" />
+      <File FileName="Assets/Scripts/UI/UIMessages.cs" Line="28" Column="3" />
+      <File FileName="Assets/Scripts/Map/Container.cs" Line="19" Column="19" />
+      <File FileName="Assets/Scripts/Map/Tool.cs" Line="18" Column="41" />
+      <File FileName="Assets/Scripts/Map/RoomObject.cs" Line="21" Column="71" />
+      <File FileName="Assets/Scripts/Map/RoomObjectType.cs" Line="7" Column="20" />
+      <File FileName="Assets/Scripts/Entities/World.cs" Line="23" Column="17" />
+      <File FileName="Assets/Scripts/Events/StoryEvent.cs" Line="163" Column="1" />
+      <File FileName="Assets/Strings/Intro.txt" Line="12" Column="8" />
+      <File FileName="Assets/Scripts/Events/StoryOption.cs" Line="9" Column="1" />
+      <File FileName="Assets/Scripts/Events/StoryOptionType.cs" Line="7" Column="11" />
+      <File FileName="Assets/Scripts/UI/UIEventWindow.cs" Line="19" Column="3" />
+      <File FileName="Assets/Strings/names.txt" Line="11" Column="5" />
+      <File FileName="Assets/Scripts/Events/NPC.cs" Line="22" Column="55" />
+      <File FileName="Assets/Scripts/GameData.cs" Line="55" Column="102" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Entities" expanded="True" />
+                <Node name="Events" expanded="True">
+                  <Node name="NPC.cs" selected="True" />
+                </Node>
+                <Node name="Map" expanded="True" />
+                <Node name="UI" expanded="True" />
+              </Node>
+              <Node name="Strings" expanded="True" />
+              <Node name="Utilities" expanded="True" />
+            </Node>
+          </Node>
+          <Node name="Assembly-UnityScript" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Necromancer GUI" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
